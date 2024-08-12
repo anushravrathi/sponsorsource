@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bakbak+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.whyus_container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+.whyus_heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  word-spacing: 3px;
+}
+.whyUs_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.whyus_para1 {
+  font-family: "Poppins", sans-serif;
+  color: #0f61ff;
+  font-size: 24px;
+}
+.whyus_top_container ul {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(3, 300px);
+  list-style: none;
+  gap: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+.whyus_top_container ul li {
+  width: 327px;
+  background-color: #e6f6ff;
+  height: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  text-align: center;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  gap: 50px;
+}
+.why_top_container_slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.why_bot_container_slide img {
+  margin-bottom: 20px;
+}
+.why_top_container_slide_para {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.whyus_bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.whyus_para2 {
+  font-family: "Poppins", sans-serif;
+  color: #0f61ff;
+  font-size: 24px;
+  margin-top: 50px;
+}
+.whyus_bot_container ul {
+  display: grid;
+
+  grid-template-columns: repeat(3, 300px);
+  list-style: none;
+  gap: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+.whyus_bot_container ul li {
+  width: 327px;
+  background-color: #e6f6ff;
+  height: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.why_bot_container_slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
