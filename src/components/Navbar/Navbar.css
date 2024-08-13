@@ -45,7 +45,7 @@
 .navbar_right_buttons button {
   margin-left: 20px;
 }
-.navbar_right_buttons button:first-of-type {
+.Link_navbar_right_button1 {
   width: 160px;
   height: 67px;
   margin-left: 10px;
@@ -58,7 +58,7 @@
   cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
-.navbar_right_buttons button:last-of-type {
+.Link_navbar_right_button2 {
   width: 160px;
   height: 67px;
   border: 1px solid #0f61ff;

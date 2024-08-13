@@ -1,0 +1,120 @@
+.getStart {
+  margin: 0 auto;
+  margin-top: 40px;
+  opacity: 0;
+
+  transform: translateX(100%);
+  animation: slideIn 0.5s forwards ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.navbar_left_text {
+  transform: skewX(-15deg) !important;
+}
+.getStart_bot {
+  display: flex;
+  padding: 80px 120px;
+  animation: slideIn 1s forwards ease-in-out;
+  align-items: center;
+  justify-content: space-around;
+}
+.getStart_bot_left {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  width: 527px;
+  height: 797px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.getStart_bot_left_register {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.getStart_bot_left_register_img {
+  background-color: #e6f6ff;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getStart_bot_left_register_heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.getStart_bot_left_form {
+  margin-top: 10px;
+}
+.getStart_bot_left_form1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.getStart_bot_left_form1 label {
+  font-size: 10px;
+}
+.getStart_bot_left_form1 input {
+  width: 100%;
+  height: 39px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.getStart_bot_left_form_button {
+  text-align: center;
+  margin-top: 40px;
+}
+.getStart_bot_left_form_button button {
+  width: 100%;
+  height: 84px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #0f60ff;
+  background-image: linear-gradient(rgb(47, 180, 255), rgb(15, 96, 255));
+  color: #fff;
+  font-size: 36px;
+}
+.getStart_bot_right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.getStart_bot_right_top {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgb(246, 253, 255), rgb(230, 246, 255));
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  gap: 15px;
+}
+.getStart_bot_right_top_img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f6ff;
+}
+.getStart_bot_right_top_img img {
+  width: 38px;
+}
+.getStart_bot_right_top_heading {
+  font-weight: 600;
+  font-size: 20px;
+}

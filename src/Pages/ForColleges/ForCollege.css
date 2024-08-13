@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.forCollege_top_heading {
+  text-align: center;
+  margin-top: 70px;
+  color: #0f61ff;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.for_College_bot {
+  display: flex;
+  flex-direction: column;
+}
+.forCollege_bot_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+  background-color: #f3f2f2;
+  padding: 30px;
+  width: 95%;
+}
+.forCollege_bot_top p:first-of-type {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.forCollege_bot_top p:last-of-type {
+  font-size: 15px;
+  color: #3d3d3d;
+  width: 80%;
+}
+.for_college_bot_bot {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.for_college_bot_bot_top {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 50px;
+}
+.for_college_bot_bot_top_left p:first-of-type {
+  font-size: 36px;
+  color: #0f61ff;
+  font-family: "Poppins", sans-serif;
+}
+.for_college_bot_bot_top_left p:last-of-type {
+  font-size: 18px;
+}
+.for_college_bot_bot_med {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  gap: 50px;
+  align-items: center;
+}
+.for_college_bot_bot_bot {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 120px;
+  gap: 50px;
+  align-items: center;
+}

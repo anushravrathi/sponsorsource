@@ -1,0 +1,17 @@
+.sponsorOppor {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+.sponsorOppor p:first-of-type {
+  font-size: 36px;
+  font-weight: 600;
+}
+.sponsorOppor p:last-of-type {
+  font-size: 20px;
+  margin-top: 40px;
+}
+.sponsorOppor p:last-of-type a {
+  text-decoration: underline;
+}

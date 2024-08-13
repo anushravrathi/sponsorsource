@@ -1,0 +1,94 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.loginPage_top {
+  margin: 0 auto;
+  margin-top: 40px;
+  opacity: 0;
+}
+
+.loginPage_top.animate {
+  animation: slideout 0.5s forwards ease-in-out;
+}
+
+@keyframes slideout {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.loginPage_bot {
+  width: 520px;
+  height: 602px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+.loginPage_bot_top {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.loginPage_top_img {
+  width: 93px;
+  height: 93px;
+  background-color: #e6f6ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginPage_top_heading {
+  font-weight: 600;
+  font-size: 36px;
+}
+.loginPage_form {
+  margin-top: 50px;
+}
+.loginPage_form1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+}
+.loginPage_form1 label {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.loginPage_form1 input {
+  width: 100%;
+  height: 84px;
+  border-radius: 10px;
+}
+.loginPage_button {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 30px;
+  /* width: 500px; */
+}
+.loginPage_button button {
+  width: 100%;
+  height: 84px;
+  border-radius: 10px;
+  background-color: #0f60ff;
+  background-image: linear-gradient(rgb(47, 180, 255), rgb(15, 96, 255));
+  color: #fff;
+  font-size: 36px;
+  outline: none;
+  border: none;
+}
+.loginPage_button a {
+  font-size: 12px;
+  text-decoration: underline;
+  text-align: center;
+}

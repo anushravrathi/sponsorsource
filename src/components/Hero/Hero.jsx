@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img1 from "../../assets/Hero.png";
 import "./Hero.css";
 
@@ -9,8 +10,12 @@ const Hero = () => {
         <img src={img1} alt="" />
       </div>
       <div className="home_hero_buttons">
-        <button>For Colleges</button>
-        <button>For Sponsors</button>
+        <Link to="/forCollege" className="Link_heroButton">
+          For Colleges
+        </Link>
+        <Link to="/forSponsors" className="Link2_heroButton">
+          For Sponsors
+        </Link>
       </div>
     </div>
   );

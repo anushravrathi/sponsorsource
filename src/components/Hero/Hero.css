@@ -1,17 +1,25 @@
 .home_hero {
-  /* width: 70%; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
 }
+
 .home_hero_buttons {
   position: absolute;
   top: 600px;
   left: 100px;
 }
-.home_hero_buttons button:first-of-type {
+
+/* Remove default link styling */
+.home_hero_buttons a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Style the first button */
+.Link_heroButton {
   background-color: #0f61ff;
   background-image: linear-gradient(
     rgba(42, 167, 255, 255),
@@ -24,8 +32,12 @@
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  text-align: center;
+  line-height: 67px; /* Center the text vertically */
 }
-.home_hero_buttons button:last-of-type {
+
+/* Style the second button */
+.Link2_heroButton {
   border: 1px solid #0f61ff;
   width: 202px;
   height: 67px;
@@ -35,4 +47,6 @@
   font-size: 24px;
   color: #0f61ff;
   cursor: pointer;
+  text-align: center;
+  line-height: 67px; /* Center the text vertically */
 }
