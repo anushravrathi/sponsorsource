@@ -14,8 +14,14 @@ const Navbar = () => {
       </div>
       <div className="navbar_med">
         <div className="navbar_med_text">
-          <p>How It Works</p>
-          <p>Discover Events</p>
+          {/* Use a regular anchor tag for in-page navigation */}
+          <a href="#howit_work">
+            <p>How It Works</p>
+          </a>
+
+          <Link to="/discover">
+            <p>Discover Events</p>
+          </Link>
         </div>
       </div>
       <div className="navbar_right">

@@ -23,6 +23,7 @@
   font-size: 24px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 .home_hero_buttons button:last-of-type {
   border: 1px solid #0f61ff;
@@ -33,4 +34,5 @@
   background-color: #fff;
   font-size: 24px;
   color: #0f61ff;
+  cursor: pointer;
 }
