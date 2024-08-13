@@ -1,5 +1,5 @@
 import React from "react";
-import "./Howit.css";
+import "./howit.css";
 import img1 from "../../assets/in3Min.png";
 
 const Howit = () => {
