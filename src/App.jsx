@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
+
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import ForCollege from "./Pages/ForColleges/ForCollege";
