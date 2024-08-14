@@ -1,0 +1,141 @@
+.HomeLoggedInpage {
+  margin-top: 70px;
+  padding: 30px 70px 0px 50px;
+}
+.HomeLoggedInpage_top_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HomeLoggedInpage_top_top p {
+  color: #0f61ff;
+  font-size: 36px;
+  font-weight: 600;
+}
+.HomeLoggedInpage_top_top_right p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.HomeLoggedInpage_top_bot {
+  display: flex;
+  /* width: 50%s; */
+  margin-top: 40px;
+  padding-left: 90px;
+  gap: 60px;
+}
+.HomeLoggedInpage_top_bot_left {
+  width: 18%;
+  cursor: pointer;
+}
+.HomeLoggedInpage_top_bot_left_img img {
+  width: 233px;
+  height: 155px;
+}
+.HomeLoggedInpage_top_bot_left_details {
+  padding: 0 10px;
+}
+.logged_name_event {
+  display: flex;
+  justify-content: space-between;
+}
+.logged_name_event p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.logged_name_event input :checked ~ .checkbox-container {
+  background-color: #0f61ff;
+  cursor: pointer;
+}
+.track_logged {
+  font-size: 10px;
+  margin-top: 5px;
+}
+.LoggedIn_price {
+  color: #0f61ff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.HomeLoggedInpage_top_bot_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.HomeLoggedInpage_top_bot_right_img {
+  width: 233px;
+  height: 155px;
+  border: 1px solid #0f61ff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HomeLoggedInpage_top_bot_right_img i {
+  color: #0f61ff;
+}
+.HomeLoggedInpage_top_bot_right_details p {
+  font-size: 10px;
+}
+.HomeLoggedInpage_bot {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  /* align-items: center; */
+}
+.HomeLoggedInpage_bot_top_heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #0f61ff;
+  display: flex;
+  align-items: start;
+}
+.HomeLoggedInpage_bot_bot {
+  padding: 0 120px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.HomeLoggedInpage_bot_bot_container ul {
+  display: grid;
+  grid-template-columns: repeat(4, 208px);
+  gap: 50px;
+  list-style: none;
+}
+.HomeLoggedInpage_bot_bot_container ul li {
+  width: 208px;
+  height: 208px;
+  background-color: #e6f6ff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HomeLoggedInpage_bot_bot_container_slide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.performance_numver {
+  font-size: 36px;
+  color: #0f61ff;
+}
+.homeLoggedInPage_bot_bot_cotnainer_paras {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.HomeLoggedInpage_bot_bot_container_para {
+  font-size: 14px;
+  font-weight: 600;
+}
+.HomeLoggedInpage_bot_bot_container_para2 {
+  font-size: 10px;
+}

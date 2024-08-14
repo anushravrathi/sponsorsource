@@ -87,6 +87,7 @@
   background-image: linear-gradient(rgb(47, 180, 255), rgb(15, 96, 255));
   color: #fff;
   font-size: 36px;
+  cursor: pointer;
 }
 .getStart_bot_right {
   display: flex;
@@ -94,6 +95,7 @@
   gap: 20px;
 }
 .getStart_bot_right_top {
+  cursor: pointer;
   display: flex;
   align-items: center;
   background-image: linear-gradient(rgb(246, 253, 255), rgb(230, 246, 255));

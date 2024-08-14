@@ -53,7 +53,9 @@ const GetStart = () => {
               <input type="password" />
             </div>
             <div className="getStart_bot_left_form_button">
-              <button>Register</button>
+              <Link to={"/home"}>
+                <button>Register</button>
+              </Link>
             </div>
           </div>
         </div>

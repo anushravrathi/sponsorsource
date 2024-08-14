@@ -44,3 +44,31 @@ export const whyUsBot = [
     para: "Track campaign performance and see the direct impact of your sponsorships.",
   },
 ];
+export const performance = [
+  {
+    _id: "1",
+    number: 67,
+    para1: "Sponsors Visited",
+    para2: "Number of sponsors who visited your event page.",
+  },
+  {
+    _id: "2",
+    number: 12,
+    para1: "Total Events Sponsored",
+    para2:
+      "Number of events that you created and have been sponsored on sponsormyevent.",
+  },
+  {
+    _id: "3",
+    number: "₹29000",
+    para1: "Total Sponsorship",
+    para2:
+      "Total amount of sponsorship received through sponsor on sponsormyevents.",
+  },
+  {
+    _id: "4",
+    number: 16,
+    para1: "Total Events Created",
+    para2: "Number of events that you created  on sponsormyevent.",
+  },
+];

@@ -39,7 +39,7 @@ const LoginPage = () => {
             <input type="password" />
           </div>
           <div className="loginPage_button">
-            <Link>
+            <Link to={"/home"}>
               <button>Sign In</button>
             </Link>
             <a href="">Forgot Password ?</a>

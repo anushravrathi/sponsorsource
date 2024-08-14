@@ -1,0 +1,48 @@
+.LoggedInMessage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding: 30px 70px 0px 50px;
+}
+.LoggedInMessage_heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #0f61ff;
+}
+.LoggedInMessage_bot {
+  display: flex;
+  margin-top: 40px;
+  padding-left: 70px;
+  gap: 90px;
+}
+.LoggedInMessage_bot_left {
+  display: flex;
+  width: 40%;
+  gap: 30px;
+  /* align-items: center; */
+  cursor: pointer;
+}
+.LoggedInMessage_bot_left_left_top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.LoggedInMessage_bot_left_left_med {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.LoggedInMessage_bot_left_left_med p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.LoggedInMessage_bot_left_left_med a {
+  text-decoration: underline;
+  font-size: 14px;
+  /* margin-top: 15px; */
+}
+.LoggedInMessage_bot_left_left_med p:last-of-type {
+  color: #0f61ff;
+  font-size: 12px;
+  font-weight: 600;
+}

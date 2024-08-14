@@ -1,0 +1,28 @@
+.LoggedNavbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 70px 0px 50px;
+}
+.loggedNavbar_right {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 40px;
+}
+.loggedNavbar_right_med {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #0f61ff;
+}
+.loggedNavbar_right_left {
+  position: relative;
+}
+.dot {
+  position: absolute;
+  top: -3px;
+  right: -1px;
+  background-color: #ff701f;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
